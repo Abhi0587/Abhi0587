@@ -1,0 +1,120 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav .array-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav .header_right {
+  text-align: right;
+}
+
+.nav-heading {
+  font-size: 2rem;
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+.algos {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.algos button {
+  background: #333;
+  color: white;
+  border: 1px solid #00ffcc;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.algos button:hover {
+  background-color: #00ffcc;
+  color: black;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  padding: 20px;
+  gap: 20px;
+  min-height: 100vh;
+}
+
+.Complexity_Containers {
+  margin-top: 20px;
+}
+
+.Pair_Definitions p,
+.Pair_Definitions h3 {
+  margin: 10px 0;
+}
+
+#array_container {
+  display: flex;
+  align-items: flex-end;
+  height: 70vh;
+  background-color: #111;
+  border: 1px solid #00ffcc;
+}
+
+#Algo_logic, #Algo_code {
+  margin-top: 10px;
+  background-color: #111;
+  padding: 10px;
+  border: 1px solid #00ffcc;
+  border-radius: 5px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+input[type=range] {
+  width: 100%;
+  cursor: pointer;
+  accent-color: #00ffcc;
+}
+
+#a_generate {
+  background: #00ffcc;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#a_generate:hover {
+  background: #00cc99;
+}
+
+footer {
+  height: 50px;
+  background: #111;
+  border-top: 1px solid #00ffcc33;
+}
